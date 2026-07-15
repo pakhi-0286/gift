@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is for You...</title>
+    <style>
+
+        body{
+            background-color: rgb(216, 105, 219);
+        }
+    #dude
+    {
+    background: rgb(48, 214, 62);
+    color: rgb(210, 19, 159);
+    padding: 20px;
+    /* border-color: rgb(138, 29, 7); */
+    border-top:10px solid  rgb(155, 18, 66) ;
+    border-right:10px solid rgb(230, 144, 14);
+    border-bottom:10px solid rgb(179, 230, 41);
+    border-left:10px solid rgb(23, 23, 190);
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius:5px;
+    border-top-left-radius:5px;
+    }
+    .form{
+        color: white;
+    }
+    .btn{
+        font-weight: bold;
+    backgroud-color:rgb(5, 72, 5);
+padding:6px;
+border:none;
+cursor:pointer;
+font-size:13px;
+border-radius:4px;     }
+
+.btn  :hover{
+    color: black;
+    background-color: cyan;
+    border: 2px solid black;
+}
+a :active{
+    background-color:red; 
+
+}
+a :visited{
+    background-color: rgb(7, 7, 83);
+}
+#submitted{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+</style>
+</head>
+<body>
+     <h1 class="hii" id="dude">Hii, dude
+     </h1>
+    <h2 class="form" id="filling">Fill This Form.... immedialtely...!!   
+    </h2>
+
+    <form action="backend.php">
+
+
+        <label for="name">Name:</label>
+        <div>
+        <input type="text" name="my name" id="name">
+        </div>
+        <br>
+
+        <label for="kaun">HAM AAPKE HAIN KAUN😁:</label>
+        <div>
+            <input type="text" name="my kaun" id="kaun">
+        </div>  
+        <br>
+        <label for="date">Date of Birth:</label>
+        <div>
+            <input type="date" name="my date" id="dob">
+        </div>
+        <br>
+
+        <label for="e-mail" name="my email" id="e-mail">
+            E-mail:
+
+        </label>
+            <div>
+                <input type="email" name="my email" id="e-mail">
+            </div>
+            <br>
+
+
+        <label for="love">  YOUR Love language🥰😁:</label>
+        <div>
+            <input type="text" name="my love" id="love">
+        </div>
+       <br>
+
+       <label for="gender">Gender:</label>
+       <div>
+        Male(lesbian)<input type="radio" name="my gender" id="gender">
+        
+         Female(gay)<input type="radio" name="my gender" id="gender">
+           </div>
+           <br>
+
+           <label for="yourself">Write your Flaws:</label>
+           <div>
+            <br>
+            <textarea name="my text" id="flaws"
+            cols="90" rows="10"></textarea>
+           </div>
+
+           <div>
+            Which kind of partner you are searching for...?? 
+           </div>
+           <br>
+           <div>
+            short heighted:<input type="checkbox" name="my partner">
+            lovable:<input type="checkbox" name="my partner">
+            crack:<input type="checkbox" name="my partner">
+            mental:<input type="checkbox" name="my partner">
+            cutee:<input type="checkbox" name="my partner">
+           </div>
+<div>
+    <label for="honeymoon">Honeymoon list</label>
+    <select name="honeymoon" id="honey">
+        <option value="par"selected>paris</option>
+        <option value="london">london</option>
+        <option value="maldives">maldives</option>
+        <option value="new york">new york</option>
+        <option value="nainital" >nainital</option>
+        <option value="ghar par">ghar par</option>
+        <option value="bathroom mae"> bathroom mae</option>
+    </select>
+</div>
+<br>
+<div>
+
+<input type="Reset" value="Reset now" class="btn" id="reset">
+<input type="Submit" value="Submit now" class="btn" id="subt">
+
+</div>
+                
+    </form>
+    <br>
+    <div>
+        <h3>Terms and Condition</h3>
+        <ol>
+            <li>Iss form mae pakhi naam likhna mana hai.
+            </li>
+            <li>This form will not harm you at any cost.</li>
+            <li>fill this form with full of imaandari and with the best of your knowledge.</li>
+            <li>
+            <ul>
+            <li>
+                <details>voh n backend ata nahi hai abhi mujhe isliye submit nhi ho paa raha😅😅.Don't worry jaldi sikh lungi😁😁..
+
+                     <summary><strong>agar yeh form submit naaa ho paaye then you can come here..</strong> <br>☝️click on the arrow which is shown..</summary>
+            
+                </details>
+                </li>
+                 <li>please do accept this form i have made this for you ladoooo..🥰</li>
+
+                <li> click on this button only after submitting the form..<br>
+                    <a href="\submit.html" class="btn" id="submitted">submitted</a>
+          </li>
+
+
+                </ul>  
+               
+
+        </ol>
+    </div>    
+</body>
+</html>
